@@ -1,59 +1,71 @@
 ## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+### Federated Graph Neural Network–Based Secure Recommendation System for Distributed E-Commerce Platforms
+
+The integration of a privacy-preserving recommendation system within a distributed e-commerce platform, aimed at generating accurate personalized product suggestions while ensuring user data security.
 
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+<!-- Detailed Description about the project -->
+
+Federated Graph Neural Network–Based Secure Recommendation System is a project designed to enhance personalized recommendations in distributed e-commerce platforms while preserving user data privacy. Traditional recommendation systems rely on centralized storage of user interaction data, which leads to privacy risks, security vulnerabilities, and scalability issues.
+
+This project overcomes these challenges by modeling user–product interactions as a graph and applying Graph Neural Networks (GNNs) to learn complex relationships. Federated learning enables collaborative model training across multiple e-commerce nodes without sharing raw user data. Secure aggregation ensures that only model updates are exchanged, making the system scalable, secure, and privacy-aware.
 
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+<!-- List the features of the project as shown below -->
+
+- Privacy-preserving recommendation using federated learning.
+- Graph Neural Network–based modeling of user–product interactions.
+- A framework-based application suitable for deployment.
+- High scalability for distributed e-commerce platforms.
+- Reduced data leakage and centralized storage risks.
+- Improved recommendation accuracy with low communication overhead.
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+<!-- List the requirements of the project as shown below -->
+
+* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu).
+* Development Environment: Python 3.8 or later for model development and integration.
+* Machine Learning Frameworks: PyTorch and PyTorch Geometric for GNN implementation.
+* Federated Learning Framework: Flower (FL) for distributed model training.
+* Backend: Node.js / Flask (existing e-commerce backend).
+* Database: MongoDB / MySQL for storing user and product data.
+* Security: HTTPS and JWT authentication.
+* IDE: Visual Studio Code for development and debugging.
+* Version Control: Git and GitHub for source code management.
 
 ## System Architecture
-<!--Embed the system architecture diagram as shown below-->
-
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+<!-- Embed the system architecture diagram as shown below -->
+<img width="1360" height="574" alt="image" src="https://github.com/user-attachments/assets/ac53ef97-a02e-4663-86eb-841e9f9c3bc0" />
+<img width="1148" height="719" alt="image" src="https://github.com/user-attachments/assets/337c1084-fab1-4cad-b07b-e52de3fa620f" />
+<img width="1104" height="709" alt="image" src="https://github.com/user-attachments/assets/e5f25123-42d9-486a-bfd5-cb583fbf315d" />
 
 
 ## Output
+<!-- Embed the Output picture at respective places as shown below -->
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output1 – Personalized Product Recommendations
+Displays recommended products based on user interaction history learned through federated graph neural networks.
+<img width="1353" height="476" alt="image" src="https://github.com/user-attachments/assets/2d9b3906-0be5-47a8-bb9f-7e5ad710507f" />
+<img width="824" height="719" alt="image" src="https://github.com/user-attachments/assets/7cbd551c-04db-455b-81f9-35100357a749" />
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+#### Output2 – Privacy-Preserving Federated Training
+Shows distributed training across multiple simulated e-commerce nodes without sharing raw user data.
+<img width="744" height="740" alt="image" src="https://github.com/user-attachments/assets/f0af4e38-658f-45ce-b327-b5785307de24" />
+<img width="1259" height="713" alt="image" src="https://github.com/user-attachments/assets/42bcec7e-0443-4ad2-b1c8-8fded8c68e47" />
+<img width="728" height="726" alt="image" src="https://github.com/user-attachments/assets/6a1bbb89-4f8e-48c0-9e53-af9070e55362" />
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
 
+Recommendation Accuracy: ~94%  
+Note: Performance metrics may vary based on dataset size and interaction density.
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+<!-- Give the results and impact as shown below -->
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+The proposed system improves recommendation accuracy while ensuring strong privacy protection by eliminating centralized user data storage. Federated learning enables secure collaboration across distributed nodes, and graph neural networks effectively capture complex user–product relationships. This project demonstrates a scalable and secure recommendation solution suitable for real-world e-commerce platforms.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
 
-
-
-
+1. McMahan, B., et al., “Communication-Efficient Learning of Deep Networks from Decentralized Data,” AISTATS, 2017.
+2. Wu, Z., et al., “A Comprehensive Survey on Graph Neural Networks,” IEEE Transactions on Neural Networks and Learning Systems, 2020.
+3. Kairouz, P., et al., “Advances and Open Problems in Federated Learning,” Foundations and Trends in Machine Learning, 2021.
